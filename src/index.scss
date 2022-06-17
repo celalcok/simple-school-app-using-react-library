@@ -1,0 +1,62 @@
+
+*{
+    outline: none;
+    margin:0;
+    padding:0;
+}
+
+
+.dropdown-item:active {
+    background-color: black;
+}
+
+.page-title {
+    border-bottom: 2px solid black;
+    margin-bottom:3rem;
+}
+
+.page{
+    width: 90%;
+    margin:auto;
+    min-height: 80vh;
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .page{
+        width: 90%;
+
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .page{
+        width: 80%;
+
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .page{
+        width: 70%;
+
+    }
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .page{
+        width: 60%;
+
+    }
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+
+}
+

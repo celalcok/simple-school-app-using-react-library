@@ -1,0 +1,32 @@
+.mini-card{
+    border-radius:5px;
+    background: #fff;
+    height:auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.shadow{
+    box-shadow:0 0 20px 3px rgba(128, 128, 128, 0.287) !important;
+
+}
+.mini-card img{
+    height:100px;
+    width:100px;
+    border-radius: 5px;
+    /* border:1px solid gray; */
+    padding:3px;
+
+}
+.mini-card .info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.link-go:hover .arrow{
+    transform:translateX(20px);
+    transition: 0.5s;
+}

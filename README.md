@@ -1,3 +1,18 @@
+
+
+# Simple School Web App with React using axios and JSON Server
+![student-profiles](simple-school-app.gif "Simple School Wep App using react.js with axios and JSON Server")
+
+# Packages that need to be installed
+using npm run below codes:
+npm install axios
+npm install -g json-server
+npm install react-router-dom
+npm install react-icons
+npm install react-toastify
+npm install react-bootstrap
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,279 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Teddy",
+      "lastName": "Bear",
+      "schoolNumber": "439",
+      "gender": "Male",
+      "birthDate": "2010-06-07",
+      "classID": "6",
+      "phoneNumber": "+19991234567",
+      "photo": "",
+      "address": "Address",
+      "email": "c_bear@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Barack",
+      "lastName": "Peterson",
+      "schoolNumber": "390",
+      "gender": "Male",
+      "birthDate": "2010-06-07",
+      "classID": 3,
+      "phoneNumber": "+19991234567",
+      "photo": "",
+      "address": "Address Four",
+      "email": "d_peterson@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Boris",
+      "lastName": "Jhonson",
+      "schoolNumber": "981",
+      "gender": "Male",
+      "classID": "1",
+      "phone": "+19991234567",
+      "birthDate": "2010-06-16",
+      "address": "Address",
+      "phoneNumber": "535 434 8967",
+      "photo": "",
+      "email": "s_jhonson@gmail.com"
+    },
+    {
+      "id": 4,
+      "firstName": "Barbara",
+      "lastName": "Jackson",
+      "schoolNumber": "543",
+      "gender": "Female",
+      "classID": 4,
+      "phone": "+19991234567",
+      "birthDate": "2010-06-16",
+      "address": "Address",
+      "phoneNumber": "535 434 8967",
+      "photo": "",
+      "email": "a_jackson@gmail.com"
+    },
+    {
+      "id": 5,
+      "firstName": "Samuel",
+      "lastName": "Tired",
+      "schoolNumber": "902",
+      "gender": "Male",
+      "birthDate": "2010-05-11",
+      "classID": "7",
+      "phoneNumber": "+19991234567",
+      "photo": "",
+      "address": "Address",
+      "email": "p_tired@gmail.com"
+    },
+    {
+      "id": 6,
+      "firstName": "Tery",
+      "lastName": "Badd",
+      "schoolNumber": "178",
+      "gender": "Male",
+      "birthDate": "2010-06-07",
+      "classID": 5,
+      "phoneNumber": "+19991234567",
+      "photo": "",
+      "address": "Address",
+      "email": "m_badd@gmail.com"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "firstName": "Evan",
+      "lastName": "Chester",
+      "personalID": "109167",
+      "gender": "Female",
+      "branch": 3,
+      "address": "Address Two",
+      "phone": "",
+      "photo": "",
+      "phoneNumber": "098 876 345 6756",
+      "email": "example@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Adam",
+      "lastName": "Kurtz",
+      "personalID": "109807",
+      "gender": "Male",
+      "branch": 1,
+      "address": "Solo Street\nSun Apt. no:11/1",
+      "phone": "",
+      "photo": "",
+      "phoneNumber": "04550271975",
+      "email": "example@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Manuella",
+      "lastName": "Trabenn",
+      "personalID": "109432",
+      "gender": "Female",
+      "branch": 2,
+      "address": "Address One",
+      "phone": "",
+      "photo": "",
+      "phoneNumber": "5550033 00033",
+      "email": "example@gmail.com"
+    },
+    {
+      "firstName": "Eric",
+      "lastName": "Danvas",
+      "personalID": 1060,
+      "branch": "4",
+      "gender": "Male",
+      "phoneNumber": "0444 566 8990",
+      "photo": "",
+      "address": "Address is unknown",
+      "id": 4,
+      "email": "example@gmail.com"
+    },
+    {
+      "firstName": "Elanora",
+      "lastName": "Tawarra",
+      "personalID": 2043,
+      "branch": "3",
+      "gender": "Female",
+      "phoneNumber": "+80 987 897 8943",
+      "photo": "",
+      "address": "Address is unknown",
+      "id": 5,
+      "email": "example@gmail.com"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "className": "1",
+      "sectionName": "A"
+    },
+    {
+      "id": 2,
+      "className": "1",
+      "sectionName": "B"
+    },
+    {
+      "id": 3,
+      "className": "2",
+      "sectionName": "A"
+    },
+    {
+      "id": 4,
+      "className": "2",
+      "sectionName": "B"
+    },
+    {
+      "className": "1",
+      "sectionName": "C",
+      "id": 5
+    },
+    {
+      "className": "1",
+      "sectionName": "D",
+      "id": 6
+    },
+    {
+      "className": "2",
+      "sectionName": "C",
+      "id": 7
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "lessonName": "Math",
+      "lessonCode": "MAT"
+    },
+    {
+      "id": 2,
+      "lessonName": "Music",
+      "lessonCode": "MUS"
+    },
+    {
+      "id": 3,
+      "lessonName": "Phisycal Education",
+      "lessonCode": "PED"
+    },
+    {
+      "id": 4,
+      "lessonName": "Geometry",
+      "lessonCode": "GEO"
+    },
+    {
+      "lessonName": "History",
+      "lessonCode": "HIS",
+      "id": 5
+    }
+  ],
+  "grades": [
+    {
+      "lessonID": "1",
+      "studentID": 1,
+      "gradeType": "1",
+      "gradePoint": "100",
+      "id": 1
+    }
+  ],
+  "attendences": [
+    {
+      "description": "He was sick",
+      "studentID": 1,
+      "dateAbsent": {
+        "dayAbsent": 17,
+        "monthAbsent": 6,
+        "yearAbsent": 2022
+      },
+      "id": 1
+    },
+    {
+      "description": "He was asleep",
+      "studentID": 6,
+      "dateAbsent": {
+        "dayAbsent": 17,
+        "monthAbsent": 6,
+        "yearAbsent": 2022
+      },
+      "id": 2
+    }
+  ],
+  "gradeTypes": [
+    {
+      "id": 1,
+      "gradeTypeName": "1.st Written Test Grade",
+      "lessonName": "1.st Written Tes"
+    },
+    {
+      "id": 2,
+      "gradeTypeName": "2.nd Written Test Grade"
+    },
+    {
+      "id": 3,
+      "gradeTypeName": "3.st Written Test Grade"
+    },
+    {
+      "id": 4,
+      "gradeTypeName": "1.st Oral Test Grade"
+    },
+    {
+      "id": 5,
+      "gradeTypeName": "2.st Oral Test Grade"
+    },
+    {
+      "id": 6,
+      "gradeTypeName": "3.st Oral Test Grade"
+    },
+    {
+      "id": 7,
+      "gradeTypeName": "1.st Performance Grade"
+    },
+    {
+      "gradeTypeName": "2.st Performance Grade",
+      "id": 8
+    }
+  ]
+}
