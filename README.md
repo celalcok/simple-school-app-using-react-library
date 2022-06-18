@@ -5,12 +5,12 @@
 
 # Packages that need to be installed
 using npm run below codes:
-npm install axios
-npm install -g json-server
-npm install react-router-dom
-npm install react-icons
-npm install react-toastify
-npm install react-bootstrap
+## `npm install axios`
+## `npm install -g json-server`
+## `npm install react-router-dom`
+## `npm install react-icons`
+## `npm install react-toastify`
+## `npm install react-bootstrap`
 
 
 # Getting Started with Create React App
