@@ -39,46 +39,6 @@
       "phoneNumber": "535 434 8967",
       "photo": "",
       "email": "s_jhonson@gmail.com"
-    },
-    {
-      "id": 4,
-      "firstName": "Barbara",
-      "lastName": "Jackson",
-      "schoolNumber": "543",
-      "gender": "Female",
-      "classID": 4,
-      "phone": "+19991234567",
-      "birthDate": "2010-06-16",
-      "address": "Address",
-      "phoneNumber": "535 434 8967",
-      "photo": "",
-      "email": "a_jackson@gmail.com"
-    },
-    {
-      "id": 5,
-      "firstName": "Samuel",
-      "lastName": "Tired",
-      "schoolNumber": "902",
-      "gender": "Male",
-      "birthDate": "2010-05-11",
-      "classID": "7",
-      "phoneNumber": "+19991234567",
-      "photo": "",
-      "address": "Address",
-      "email": "p_tired@gmail.com"
-    },
-    {
-      "id": 6,
-      "firstName": "Tery",
-      "lastName": "Badd",
-      "schoolNumber": "178",
-      "gender": "Male",
-      "birthDate": "2010-06-07",
-      "classID": 5,
-      "phoneNumber": "+19991234567",
-      "photo": "",
-      "address": "Address",
-      "email": "m_badd@gmail.com"
     }
   ],
   "teachers": [
@@ -217,6 +177,13 @@
       "gradeType": "1",
       "gradePoint": "100",
       "id": 1
+    },
+    {
+      "lessonID": "2",
+      "studentID": 2,
+      "gradeType": "1",
+      "gradePoint": "100",
+      "id": 2
     }
   ],
   "attendences": [
@@ -239,6 +206,16 @@
         "yearAbsent": 2022
       },
       "id": 2
+    },
+    {
+      "description": "He was asleep",
+      "studentID": 1,
+      "dateAbsent": {
+        "dayAbsent": 18,
+        "monthAbsent": 6,
+        "yearAbsent": 2022
+      },
+      "id": 3
     }
   ],
   "gradeTypes": [
@@ -274,6 +251,10 @@
     {
       "gradeTypeName": "2.st Performance Grade",
       "id": 8
+    },
+    {
+      "gradeTypeName": "3.st Performance Grade",
+      "id": 9
     }
   ]
 }
