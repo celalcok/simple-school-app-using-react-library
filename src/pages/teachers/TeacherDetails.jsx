@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import axios from "axios";
-import ReactCrop from "react-image-crop";
 // Custom import
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";

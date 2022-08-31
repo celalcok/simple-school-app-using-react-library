@@ -13,7 +13,7 @@ import imgattendence from "../../images/attendence.png";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import "./home.css";
-import { FaArrowRight, FaChevronRight } from "react-icons/fa";
+import { FaChevronRight } from "react-icons/fa";
 
 const Home = () => {
   const [dataStudents, setDataStudents] = useState([]);
